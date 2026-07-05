@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340" role="img" aria-labelledby="title desc">
+  <title id="title">HTML Markdown Clipper export pipeline</title>
+  <desc id="desc">Current tab to readability, Turndown, local image assets, and Markdown ZIP.</desc>
+  <rect width="980" height="340" rx="22" fill="#f6f7f9"/>
+  <text x="48" y="58" fill="#101828" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="750">HTML Markdown Clipper</text>
+  <text x="48" y="92" fill="#516074" font-family="Segoe UI, Arial, sans-serif" font-size="15">A browser article becomes a portable Markdown ZIP with local image assets.</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="48" y="142" width="150" height="84" rx="16" fill="#2563eb"/>
+    <text x="84" y="179" fill="#fff" font-size="18" font-weight="750">Current tab</text>
+    <text x="75" y="203" fill="#dbeafe" font-size="12">Logged-in page context</text>
+    <rect x="248" y="142" width="150" height="84" rx="16" fill="#0f766e"/>
+    <text x="281" y="179" fill="#fff" font-size="18" font-weight="750">Readability</text>
+    <text x="277" y="203" fill="#ccfbf1" font-size="12">Clean article body</text>
+    <rect x="448" y="142" width="150" height="84" rx="16" fill="#7c3aed"/>
+    <text x="484" y="179" fill="#fff" font-size="18" font-weight="750">Turndown</text>
+    <text x="483" y="203" fill="#ede9fe" font-size="12">GFM tables</text>
+    <rect x="648" y="142" width="150" height="84" rx="16" fill="#c2410c"/>
+    <text x="694" y="179" fill="#fff" font-size="18" font-weight="750">Assets</text>
+    <text x="679" y="203" fill="#ffedd5" font-size="12">Original images</text>
+    <rect x="812" y="142" width="120" height="84" rx="16" fill="#16a34a"/>
+    <text x="843" y="179" fill="#fff" font-size="18" font-weight="750">ZIP</text>
+    <text x="835" y="203" fill="#dcfce7" font-size="12">.md + assets/</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 184h38"/><path d="M236 174l12 10-12 10"/>
+    <path d="M404 184h38"/><path d="M436 174l12 10-12 10"/>
+    <path d="M604 184h38"/><path d="M636 174l12 10-12 10"/>
+    <path d="M804 184h2"/><path d="M796 174l12 10-12 10"/>
+  </g>
+  <rect x="48" y="266" width="884" height="36" rx="12" fill="#e9eef6"/>
+  <text x="72" y="289" fill="#334155" font-family="Segoe UI, Arial, sans-serif" font-size="14">Best for technical docs, product wikis, blog posts, Zhihu-style articles, and pages with important screenshots.</text>
+</svg>

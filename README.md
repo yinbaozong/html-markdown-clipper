@@ -4,6 +4,8 @@ Save a web article as a clean Markdown ZIP: readable text, preserved tables, and
 
 HTML Markdown Clipper is a Chrome/Edge extension for people who collect serious web material into Obsidian, Git repos, notes, docs, or knowledge bases. Open an article, click once, and get a portable Markdown package instead of a messy copy-paste.
 
+![Extension popup preview](docs/popup-preview.png)
+
 ## Why Star This
 
 - One-click article capture: Markdown plus local image assets.
@@ -14,6 +16,8 @@ HTML Markdown Clipper is a Chrome/Edge extension for people who collect serious 
 - Ships with regression tests for Bambu Wiki, Zhihu-like pages, WordPress lazy images, and table conversion.
 
 ## What You Get
+
+![Export pipeline](docs/export-pipeline.svg)
 
 ```text
 Article Title.zip
