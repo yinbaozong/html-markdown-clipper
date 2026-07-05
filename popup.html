@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>网页转 Markdown</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header>
+        <div>
+          <p class="eyebrow">Universal Exporter</p>
+          <h1>网页转 Markdown</h1>
+        </div>
+        <span class="status-pill" id="statusPill">就绪</span>
+      </header>
+
+      <div class="actions">
+        <button class="primary-action" id="sniffBtn" type="button">
+          先嗅探正文和图片
+        </button>
+        <button class="secondary-action" id="downloadBtn" type="button" disabled>
+          确认下载 ZIP
+        </button>
+      </div>
+
+      <section class="metrics" aria-label="性能指标">
+        <div>
+          <span>嗅探到正文图片</span>
+          <strong id="imageCount">-</strong>
+        </div>
+        <div>
+          <span>平均解析耗时</span>
+          <strong id="parseMs">-</strong>
+        </div>
+        <div>
+          <span>图片下载并发耗时</span>
+          <strong id="imageMs">-</strong>
+        </div>
+        <div>
+          <span>打包耗时</span>
+          <strong id="zipMs">-</strong>
+        </div>
+      </section>
+
+      <p class="message" id="message">打开文章页后先嗅探，确认图片数量无误后再下载。</p>
+    </main>
+    <script type="module" src="/src/popup/popup.js"></script>
+  </body>
+</html>
