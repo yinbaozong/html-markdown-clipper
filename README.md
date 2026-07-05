@@ -61,6 +61,10 @@ Export your first article:
 4. Click Download Markdown ZIP.
 5. Unzip the file and drop the Markdown folder into Obsidian or any docs repo.
 
+## Need Help?
+
+If you want to reproduce this project but are not sure how to start, feel free to contact me anytime: yinbaozong@163.com
+
 ## Good Targets
 
 - Zhihu columns and long answers
